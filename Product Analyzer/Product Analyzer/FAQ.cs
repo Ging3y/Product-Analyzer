@@ -10,18 +10,12 @@ using System.Windows.Forms;
 
 namespace Product_Analyzer
 {
-    public partial class Form1 : Form
+    public partial class FAQ : Form
     {
-        public Form1()
+        public FAQ()
         {
             InitializeComponent();
         }
 
-        FAQ faqPage = new FAQ();
-        private void fAQToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            //Code to change window here
-            faqPage.Show();
-        }
     }
 }
